@@ -85,7 +85,7 @@ open class LegendRenderer: Renderer
                         )
                     }
                 }
-                else if dataSet is IPieChartDataSet
+               /* else if dataSet is IPieChartDataSet
                 {
                     let pds = dataSet as! IPieChartDataSet
                     
@@ -120,7 +120,7 @@ open class LegendRenderer: Renderer
                             )
                         )
                     }
-                }
+                }*/
                 else if dataSet is ICandleChartDataSet &&
                     (dataSet as! ICandleChartDataSet).decreasingColor != nil
                 {
